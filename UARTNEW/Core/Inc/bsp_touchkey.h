@@ -17,10 +17,10 @@ extern "C" {
 #define TOUCH_KEY4_PIN      GPIO_PIN_4
 #define TOUCH_KEY4_PORT     GPIOA
 
-// ???????
+
 void TTP224_GPIO_Init(void);
 
-// ????????
+
 uint8_t Key_IN1_Scanf(void);
 uint8_t Key_IN2_Scanf(void);
 uint8_t Key_IN3_Scanf(void);
