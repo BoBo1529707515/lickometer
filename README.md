@@ -68,7 +68,7 @@ This project is designed to detect licking actions and record data through UART 
 ### 1. Lickometer PC Program (Data Acquisition and Labeling)  
 Connect the STM32 development board (make sure the correct COM port is used).    
 Activate the virtual environment and run:  
-```bash  
+
 python main.py  
 Follow the program instructions to collect and label data.↳  
 
