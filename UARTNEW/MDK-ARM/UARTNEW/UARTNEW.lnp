@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"uartnew\startup_stm32f103xb.o"
+"uartnew\main.o"
+"uartnew\gpio.o"
+"uartnew\usart.o"
+"uartnew\stm32f1xx_it.o"
+"uartnew\stm32f1xx_hal_msp.o"
+"uartnew\bsp_touchkey.o"
+"uartnew\stm32f1xx_hal_gpio_ex.o"
+"uartnew\stm32f1xx_hal_tim.o"
+"uartnew\stm32f1xx_hal_tim_ex.o"
+"uartnew\stm32f1xx_hal_uart.o"
+"uartnew\stm32f1xx_hal.o"
+"uartnew\stm32f1xx_hal_rcc.o"
+"uartnew\stm32f1xx_hal_rcc_ex.o"
+"uartnew\stm32f1xx_hal_gpio.o"
+"uartnew\stm32f1xx_hal_dma.o"
+"uartnew\stm32f1xx_hal_cortex.o"
+"uartnew\stm32f1xx_hal_pwr.o"
+"uartnew\stm32f1xx_hal_flash.o"
+"uartnew\stm32f1xx_hal_flash_ex.o"
+"uartnew\stm32f1xx_hal_exti.o"
+"uartnew\system_stm32f1xx.o"
+--strict --scatter "UARTNEW\UARTNEW.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UARTNEW.map" -o UARTNEW\UARTNEW.axf
