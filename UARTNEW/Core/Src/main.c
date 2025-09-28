@@ -96,35 +96,35 @@ printf("TTP224 Touch Key Demo Start (HAL Library)\r\n");
   while (1)
   {
 		
-		// ??????1
+		
         if(Key_IN1_Scanf() == 1)
         {
-            printf("[1]-Touch!\r\n");
+            printf("Faucet Signal 1\r\n");
             HAL_Delay(300); // ????
         }
         
-        // ??????2
+     
         if(Key_IN2_Scanf() == 1)
         {
-            printf("[2]-Touch!\r\n");
-            HAL_Delay(300); // ????
+            printf("Faucet Signal 2\r\n");
+            HAL_Delay(300); 
         }
         
-        // ??????3
+     
         if(Key_IN3_Scanf() == 1)
         {
-            printf("[3]-Touch!\r\n");
-            HAL_Delay(300); // ????
+            printf("Faucet Signal 3\r\n");
+            HAL_Delay(300); 
         }
         
-        // ??????4
+       
         if(Key_IN4_Scanf() == 1)
         {
-            printf("[4]-Touch!\r\n");
-            HAL_Delay(300); // ????
+            printf("Faucet Signal 4\r\n");
+            HAL_Delay(300); 
         }
         
-        HAL_Delay(50); // ?????
+        HAL_Delay(50); 
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
