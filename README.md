@@ -48,3 +48,49 @@ A04(PA4)--OUT4
 停止位	1  
 校验位	无  
 流控	无  
+# lickometer
+A low-cost solution for recording mouse licking events
+
+# Lick Detection System - Based on STM32F103C8T6 and TTP224
+This project is designed to detect licking actions and record data through UART serial communication. It includes a PC-based data acquisition and labeling program as well as an STM32 firmware project. The system is based on the **STM32F103C8T6** microcontroller and the **TTP224 capacitive touch sensor**.
+
+## Project Structure
+├── Lickometer_PC   PC program for data acquisition and labeling (Python)  
+├── UARTNEW         STM32 firmware project (Keil and STM32CubeMX)  
+├── README.md       Project documentation  
+
+## Hardware Platform
+- MCU: STM32F103C8T6  
+- Sensor: TTP224 capacitive touch sensor  
+- Communication: UART serial communication  
+
+## Usage Instructions
+### 1. Lickometer PC Program (Data Acquisition and Labeling)  
+Connect the STM32 development board (make sure the correct COM port is used).    
+Activate the virtual environment and run:  
+```bash  
+python main.py  
+Follow the program instructions to collect and label data.↳  
+
+### 2. UARTNEW (STM32 Project)
+Open the project with Keil uVision or STM32CubeIDE.
+Compile the project.
+Flash the firmware to the STM32F103C8T6 development board using ST-Link or USB-TTL.
+Ensure the baud rate matches the PC program (115200).
+Connect the STM32 development board (make sure the correct COM port is used).
+
+### 3. Wiring Notes
+VCC → 3.3V
+GND → GND
+A01 (PA1) → OUT1
+A02 (PA2) → OUT2
+A03 (PA3) → OUT3
+A04 (PA4) → OUT4
+
+# Recommended UART Configuration
+Parameter	Value
+Baudrate	115200
+Data bits	8
+Stop bits	1
+Parity	None
+Flow ctrl	None
