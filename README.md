@@ -25,8 +25,8 @@
 ### 1. 舔舐感知上位机（数据采集与标记）
 连接 STM32 开发板（确保使用的是对应串口）
 
-进入虚拟环境并运行：python main.py
-按照程序界面指引进行数据采集和标记。
+进入虚拟环境并运行：out.py
+按照程序界面指引进行数据采集和存储。
 
 ### 2. UARTNEW（STM32 工程）
 使用 Keil uVision 或 STM32CubeIDE 打开该工程文件夹  
@@ -69,7 +69,7 @@ This project is designed to detect licking actions and record data through UART 
 Connect the STM32 development board (make sure the correct COM port is used).    
 Activate the virtual environment and run:  
 
-python main.py  
+out.py  
 Follow the program instructions to collect and label data.↳  
 
 ### 2. UARTNEW (STM32 Project)
