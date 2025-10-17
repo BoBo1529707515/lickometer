@@ -48,6 +48,7 @@ A04(PA4)--OUT4
 停止位	1  
 校验位	无  
 流控	无  
+# 10.17更新第二版，可以同时测量八个通道
 # lickometer
 A low-cost solution for recording mouse licking events
 
