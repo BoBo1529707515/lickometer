@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"uart2.0\startup_stm32f103xb.o"
+"uart2.0\main.o"
+"uart2.0\gpio.o"
+"uart2.0\usart.o"
+"uart2.0\stm32f1xx_it.o"
+"uart2.0\stm32f1xx_hal_msp.o"
+"uart2.0\bsp_touchkey.o"
+"uart2.0\system_stm32f1xx.o"
+"uart2.0\stm32f1xx_hal_gpio_ex.o"
+"uart2.0\stm32f1xx_hal_tim.o"
+"uart2.0\stm32f1xx_hal_tim_ex.o"
+"uart2.0\stm32f1xx_hal_uart.o"
+"uart2.0\stm32f1xx_hal.o"
+"uart2.0\stm32f1xx_hal_rcc.o"
+"uart2.0\stm32f1xx_hal_rcc_ex.o"
+"uart2.0\stm32f1xx_hal_gpio.o"
+"uart2.0\stm32f1xx_hal_dma.o"
+"uart2.0\stm32f1xx_hal_cortex.o"
+"uart2.0\stm32f1xx_hal_pwr.o"
+"uart2.0\stm32f1xx_hal_flash.o"
+"uart2.0\stm32f1xx_hal_flash_ex.o"
+"uart2.0\stm32f1xx_hal_exti.o"
+--library_type=microlib --strict --scatter "Uart2.0\Uart2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Uart2.map" -o Uart2.0\Uart2.0
