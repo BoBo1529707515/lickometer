@@ -38,10 +38,16 @@
 ### 3.注意配置好接线
 VCC--3.3V  
 GND--GND  
-A01(PA1)--OUT1   
-A02(PA2)--OUT2  
-A03(PA3)--OUT3  
-A04(PA4)--OUT4   
+A01(PA1)--OUT1     
+A02(PA2)--OUT2    
+A03(PA3)--OUT3    
+A04(PA4)--OUT4     
+A05(PA5)--OUT5  
+A06(PA6)--OUT6  
+A07(PA7)--OUT7  
+B00(PB0)--OUT8  
+PA9/PA10--串口
+
 ## 串口配置建议
 参数	设置值  
 波特率	115200  
